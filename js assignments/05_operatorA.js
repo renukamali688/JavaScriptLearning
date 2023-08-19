@@ -1,3 +1,6 @@
+console.log("--------------- Assignment 1 -------------------------------------");
+
+console.log("...................................................................");
 function squareOfWordLength(giveStr){
 
         var wordLen=giveStr.length;
@@ -5,13 +8,14 @@ function squareOfWordLength(giveStr){
         console.log(`Given String Lenght is: ${wordLen}`);
         var lensqueare=wordLen*wordLen;
         console.log(`Square is: ${lensqueare}`);
+        console.log("...................................................................");
 
 }
 squareOfWordLength("JavaScript");
 squareOfWordLength("Google Chrome");
 squareOfWordLength("Developer Smart");
 
-
+console.log("...................................................................");
 var divideStr = function(str){
         var strLength=str.length;
         console.log(`String Length is: ${strLength}`);
@@ -26,6 +30,7 @@ var divideStr = function(str){
 }
 divideStr("I am Angular Developer");
 
+console.log("....................................................................");
 var multiplyStr = function(str){
     var strLength=str.length;
     console.log(`String Length is: ${strLength}`);
